@@ -1,0 +1,98 @@
+
+// Cores
+$cor1: #21323E;
+$cor2: #FF6C0C;       
+$cor3: #FFFFFF;
+$cor4: #374853;
+
+// Tipografia
+$fonte1: 'Raleway', sans-serif;
+$fonte2: 'Montserrat', sans-serif;
+
+// mixins
+@mixin tipografia1 {
+    font-family: $fonte2;
+    font-size: 48px;
+}
+
+@mixin tipografia2 {
+    font-family: $fonte1;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+@mixin tipografia3 {
+    font-family: $fonte2;
+    font-size: 96px;
+}
+
+@mixin tipografia4 {
+    font-family: $fonte1;
+    font-size: 36px;
+}
+
+@mixin tipografia5 {
+    font-family: $fonte2;
+    font-size: 24px;
+}
+
+@mixin tipografia6 {
+    font-family: $fonte1;
+    font-size: 16px;
+}
+
+@mixin myFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    @include myFlex;
+}
+
+@mixin separador {
+    content: '';
+    display: block;
+    background-color: $cor2;
+    width: 100px;
+    height: 2px;
+}
+
+@mixin btn-callToAction {
+    background-color: $cor2;
+    border-radius: 8px;
+    border: none;
+    color: $cor3;
+    height: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+// Criando mixins para responsivo
+@mixin device($dispositivo) {
+	@if $dispositivo == tablet {
+		@media only screen and (min-width: 788px) and (max-width: 960px) {
+			@content;
+		}	
+	} @else if $dispositivo == mobile {
+		@media only screen and (max-width: 787px) {
+			@content;
+		}
+	} @else if $dispositivo == smallMobile 
+    {
+		@media only screen and (max-width: 400px) {
+			@content;
+		}
+	} 
+}
+
+
+
+
+

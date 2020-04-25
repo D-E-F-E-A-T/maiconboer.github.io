@@ -1,0 +1,93 @@
+
+// topo
+.titulo-topo {
+    animation: slowDown .5s forwards;
+}
+
+.paragrafo-top {
+    animation: slowDown .8s forwards;
+}
+
+.citacao, .callToAction-produto {
+    animation: slowDown2 1s forwards;
+}
+
+// icones seção vantagens
+.icone-0 {
+    animation: slowUp .3s forwards;
+}
+
+.icone-1 {
+    animation: slowUp 1s forwards;
+}
+
+.icone-2 {
+    animation: slowUp 1.3s forwards;
+}
+
+.icone-3 {
+    animation: slowUp 1.7s forwards;
+}
+
+// menu hamburguer
+.menu-top.ativo-mobile {
+    animation: slowRight 1s forwards;
+}
+
+// seções produtos
+.produto-individual {
+    opacity: 0;
+    transition: 1s;
+}
+
+.produto-individual.ativo {
+    opacity: 1;
+    animation: slowUp 1s forwards;
+}
+
+
+// keyframes
+@keyframes slowDown {
+   from {
+       opacity: 0;
+       transform: translate3d(0, -50px, 0);
+   }
+   to {
+       opacity: 1;
+       transform: translate3d(0, 0, 0);
+   }
+}
+
+@keyframes slowDown2 {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slowRight {
+    from {
+        opacity: 0;
+        transform: translate3d(100px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+ @keyframes slowUp {
+     from {
+        opacity: 0;
+        transform: translate3d(0, 100px, 0);
+    }
+     to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}

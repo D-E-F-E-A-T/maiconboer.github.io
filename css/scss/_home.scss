@@ -1,0 +1,262 @@
+// página home
+
+// vantagens
+.vantagens h1 {
+    @include tipografia1;
+    color: $cor1;
+    max-width: 670px;
+    margin: 60px auto;
+    text-align: center;
+    @include device(mobile) {
+        @include tipografia4;
+        padding: 0 20px;
+    }
+}
+
+.vantagens h1::after {
+    @include separador;
+    margin: 20px auto 0;
+}
+
+.svg-vantagens {
+    @include myFlex;
+    justify-content: center;
+    text-align: center;
+    @include device(mobile) {
+        padding: 0 20px;
+    }
+}
+
+.svg-vantagens img {
+    width: 70px;
+    height: 70px;
+    padding: 0 50px;
+    @include device(mobile) {
+        padding: 0 90px;
+    }
+}
+
+.svg-vantagens p {
+    color: $cor1;
+    margin-bottom: 60px;
+    @include tipografia2;
+}
+
+.svg-vantagens div {
+    opacity: 0;
+}
+
+.svg-vantagens div.ativo {
+    opacity: 1;
+}
+
+// produto
+.produto {
+    background-color: $cor1;
+    padding: 60px 20px;
+}
+
+.titulo-produto {
+    text-align: center;
+    @include tipografia1;
+}
+
+.titulo-produto::after {
+    @include separador;
+    background-color: $cor3;
+    margin: 20px auto 40px;
+}
+
+.container.box {
+    background-color: $cor4;
+    margin-bottom: 40px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba($cor1, .2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    @include device(mobile) {
+        padding: 0px;
+    }
+    @include device(tablet) {
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 60px;
+    }
+}
+
+.produto-descricao {
+    @include device(mobile) {
+        padding: 20px 10px;
+        margin: 0 auto;
+    }
+}
+
+.produto-descricao h2 {
+    position: relative;
+    width: 70%;
+    height: 60px;
+    margin-top: -60px;
+    margin-bottom: 60px;
+    padding-top: 24px;
+    border-radius: 0px 0px 8px 8px;
+    text-align: center;
+    @include tipografia4;
+    background-color: $cor2;
+    box-shadow: 0 4px 8px 0 rgba($cor1, .2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    @include device(tablet) {
+        margin: -60px auto 60px auto;
+    }
+    @include device(mobile) {
+        @include tipografia5;
+        margin: -40px auto 60px auto;
+        text-align: center;
+    }
+}
+
+.produto-descricao h2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -19.8px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+    background-color: #b24b08;
+}
+
+.produto-descricao h2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -20px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+    background-color: #b24b08;
+}
+
+.paragrafo-produto {
+    max-width: 420px;
+    @include tipografia2;
+    @include device(mobile) {
+        @include tipografia6;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.paragrafo-produto::after {
+    @include separador;
+    background-color: $cor2;
+    margin-top: 20px;
+    @include device(mobile) {
+        margin: 20px auto 0px ;
+    }
+}
+
+.svg-produto {
+    max-width: 300px;
+    padding: 0px 40px;
+    @include device(mobile) {
+       margin: 0 auto;
+       padding: 20px;
+    }
+}
+
+.svg-produto img {
+    max-width: 100%;
+    @include device(mobile){
+        width: 200px;
+        padding: 0;
+    }
+}
+
+.callToAction-orcamento {
+    @include btn-callToAction;
+    @include tipografia2;
+    transition: .5s;
+ }
+ 
+ .callToAction-orcamento a {
+     height: 40px;
+     padding: 20px;
+ }
+ 
+ .callToAction-orcamento:hover {
+     background-color: $cor4;
+     transition: .5s;
+ }
+
+// sobre
+.sobre {
+    background-color: $cor3;
+    color: $cor1;
+    @include device(mobile) {
+       @include myFlex;
+       justify-content: center;
+    }
+}
+
+.sobre h1 {
+    color: $cor1;
+    text-align: center;
+    @include tipografia1;
+    padding-top: 40px;
+}
+
+.sobre h1:after {
+    @include separador;
+    background-color: $cor1;
+    margin: 20px auto 40px;
+}
+
+.box-texto {
+    @include myFlex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 20px;
+    @include device(mobile){
+        align-content: center;
+    } 
+}
+
+.texto-sobre p { 
+    color: $cor1;
+    max-width: 800px;
+    margin-bottom: 40px;
+    @include tipografia2;
+}
+
+.texto-sobre p .link-style {
+    color: $cor2;
+    font-weight: bold;
+}
+
+
+.tecnologias {
+    @include myFlex;
+    justify-content: space-around;
+    @include device(mobile){
+        justify-content: center;
+        margin: 0 auto;
+    } 
+}
+
+.bold-paragraph {
+    font-weight: bold;
+}
+
+.tecnologias.proximas {
+    justify-content: center;
+}
+
+.workflow-icon {
+    max-width: 100px;
+    margin-bottom: 40px;
+}
+
+.content-break {
+    color: $cor2;
+    margin-bottom: 40px;
+}
