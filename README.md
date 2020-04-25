@@ -31,7 +31,7 @@ utilizado.
 
 
 
-**Ainda não tenho conhecimentos em bibliotecas e frameworks  
-(React, Vue, Angular, Ionic, Flutter e por ai vai) ou  outras linguagens de programação 
-(meu foco atual é Javascript), conforme o conhecimento na linguagem for ficando mais sólido,  
-partirei para os frameworks e libs (degrau por degrau).**
+**Ainda não tenho conhecimentos em bibliotecas e frameworks   
+(React, Vue, Angular, Ionic, Flutter e por ai vai) ou  outras linguagens de programação   
+(meu foco atual é Javascript), conforme o conhecimento na linguagem for ficando mais sólido,    
+partirei para os frameworks e libs (degrau por degrau).**  
