@@ -1,14 +1,14 @@
 
 // topo
-.titulo-topo {
+.title-top {
     animation: slowDown .5s forwards;
 }
 
-.paragrafo-top {
+.paragraph-top {
     animation: slowDown .8s forwards;
 }
 
-.citacao, .callToAction-produto {
+.quote, .callToAction-product {
     animation: slowDown2 1s forwards;
 }
 
@@ -35,12 +35,12 @@
 }
 
 // seções produtos
-.produto-individual {
+.product-individual {
     opacity: 0;
     transition: 1s;
 }
 
-.produto-individual.ativo {
+.product-individual.ativo {
     opacity: 1;
     animation: slowUp 1s forwards;
 }
