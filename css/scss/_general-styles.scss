@@ -158,11 +158,11 @@ img {
     color: $cor2;
 }
 
-.titulo-topo, .top p, .citacao {
+.title-top, .top p, .quote {
     text-align: center;
 }
 
-.titulo-topo {
+.title-top {
     @include tipografia3;
     display: flex;
     flex-direction: column;
@@ -174,25 +174,25 @@ img {
     }
 }
 
-.titulo-topo span {
+.title-top span {
     font-size: 36px;
     color: $cor2;
 }
 
 
-.citacao {
+.quote {
     padding: 0 10px;
 }
-.citacao p {
+.quote p {
     font-style: italic;
 }
 
-.citacao p::before, .citacao p::after {
+.quote p::before, .quote p::after {
     @include separador;
     margin: 20px auto;
 }
 
-.callToAction-produto {
+.callToAction-product {
    @include btn-callToAction;
    @include tipografia2;
    transition: .5s;
@@ -205,12 +205,12 @@ img {
    }
 }
 
-.callToAction-produto a {
+.callToAction-product a {
     height: 40px;
     padding: 20px;
 }
 
-.callToAction-produto:hover {
+.callToAction-product:hover {
     background-color: $cor5;
     transition: .5s;
 }
@@ -220,7 +220,7 @@ footer {
     padding-bottom: 40px;
 }
 
-.contato {
+.contact {
     @include tipografia1;
     background-color: $cor1;
     padding: 40px 0;
@@ -238,13 +238,13 @@ footer {
     flex-direction: column;
 }
 
-.contato::after {
+.contact::after {
     @include separador;
     margin: 20px auto 0;
     background-color: $cor3;
 }
 
-.contato-dados {
+.contact-data {
     @include myFlex;
     padding-left: 20px;
     padding-right: 20px;
@@ -257,25 +257,25 @@ footer {
     }
 }
 
-.contato-dados div {
+.contact-data div {
     max-width: 450px; 
     @include device(mobile) {
         margin-bottom: 20px;
     }
 }
 
-.contato-frase {
+.contact-phrase {
     margin-bottom: 20px;
     @include device(mobile) {
         margin-bottom: 40px;
     }
 }
 
-.contato-dados a {
+.contact-data a {
     color: $cor2;
 }
 
-span.whats, span.email, .redes-acompanhe {
+span.whats, span.email {
     @include tipografia2;
     display: block;
     color: $cor3;
@@ -285,10 +285,8 @@ span.email {
     margin-top: 20px;
 }
 
-.redes-sociais img {
+.social-networks img {
     width: 38px;
     height: 38px;
     margin: 0 10px 0 10px;
 }
-
-
