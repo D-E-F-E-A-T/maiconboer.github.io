@@ -1,7 +1,7 @@
 // página home
 
 // vantagens
-.vantagens h1 {
+.benefits h1 {
     @include tipografia1;
     color: $cor1;
     max-width: 670px;
@@ -13,12 +13,12 @@
     }
 }
 
-.vantagens h1::after {
+.benefits h1::after {
     @include separador;
     margin: 20px auto 0;
 }
 
-.svg-vantagens {
+.svg-benefits {
     @include myFlex;
     justify-content: center;
     text-align: center;
@@ -27,7 +27,7 @@
     }
 }
 
-.svg-vantagens img {
+.svg-benefits img {
     width: 70px;
     height: 70px;
     padding: 0 50px;
@@ -36,32 +36,32 @@
     }
 }
 
-.svg-vantagens p {
+.svg-benefits p {
     color: $cor1;
     margin-bottom: 60px;
     @include tipografia2;
 }
 
-.svg-vantagens div {
+.svg-benefits div {
     opacity: 0;
 }
 
-.svg-vantagens div.ativo {
+.svg-benefits div.ativo {
     opacity: 1;
 }
 
 // produto
-.produto {
+.product {
     background-color: $cor1;
     padding: 60px 20px;
 }
 
-.titulo-produto {
+.title-product {
     text-align: center;
     @include tipografia1;
 }
 
-.titulo-produto::after {
+.title-product::after {
     @include separador;
     background-color: $cor3;
     margin: 20px auto 40px;
@@ -83,14 +83,14 @@
     }
 }
 
-.produto-descricao {
+.product-description {
     @include device(mobile) {
         padding: 20px 10px;
         margin: 0 auto;
     }
 }
 
-.produto-descricao h2 {
+.product-description h2 {
     position: relative;
     width: 70%;
     height: 60px;
@@ -112,7 +112,7 @@
     }
 }
 
-.produto-descricao h2:after {
+.product-description h2:after {
     content: '';
     position: absolute;
     top: 0;
@@ -124,7 +124,7 @@
     background-color: #b24b08;
 }
 
-.produto-descricao h2:before {
+.product-description h2:before {
     content: '';
     position: absolute;
     top: 0;
@@ -136,7 +136,7 @@
     background-color: #b24b08;
 }
 
-.paragrafo-produto {
+.paragraph-product {
     max-width: 420px;
     @include tipografia2;
     @include device(mobile) {
@@ -146,7 +146,7 @@
     }
 }
 
-.paragrafo-produto::after {
+.paragraph-product::after {
     @include separador;
     background-color: $cor2;
     margin-top: 20px;
@@ -155,7 +155,7 @@
     }
 }
 
-.svg-produto {
+.svg-product {
     max-width: 300px;
     padding: 0px 40px;
     @include device(mobile) {
@@ -164,7 +164,7 @@
     }
 }
 
-.svg-produto img {
+.svg-product img {
     max-width: 100%;
     @include device(mobile){
         width: 200px;
@@ -172,24 +172,24 @@
     }
 }
 
-.callToAction-orcamento {
+.callToAction-budget {
     @include btn-callToAction;
     @include tipografia2;
     transition: .5s;
  }
  
- .callToAction-orcamento a {
+ .callToAction-budget a {
      height: 40px;
      padding: 20px;
  }
  
- .callToAction-orcamento:hover {
+ .callToAction-budget:hover {
      background-color: $cor5;
      transition: .5s;
  }
 
 // sobre
-.sobre {
+.about {
     background-color: $cor3;
     color: $cor1;
     @include device(mobile) {
@@ -198,20 +198,20 @@
     }
 }
 
-.sobre h1 {
+.about h1 {
     color: $cor1;
     text-align: center;
     @include tipografia1;
     padding-top: 40px;
 }
 
-.sobre h1:after {
+.about h1:after {
     @include separador;
     background-color: $cor1;
     margin: 20px auto 40px;
 }
 
-.box-texto {
+.box-text {
     @include myFlex;
     flex-direction: column;
     margin: 0 auto;
@@ -221,20 +221,20 @@
     } 
 }
 
-.texto-sobre p { 
+.text-about p { 
     color: $cor1;
     max-width: 800px;
     margin-bottom: 40px;
     @include tipografia2;
 }
 
-.texto-sobre p .link-style {
+.text-about p .link-style {
     color: $cor2;
     font-weight: bold;
 }
 
 
-.tecnologias {
+.technologies {
     @include myFlex;
     justify-content: space-around;
     @include device(mobile){
@@ -247,7 +247,7 @@
     font-weight: bold;
 }
 
-.tecnologias.proximas {
+.technologies.next {
     justify-content: center;
 }
 
