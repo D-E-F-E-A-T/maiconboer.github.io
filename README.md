@@ -14,10 +14,11 @@ excelente entendimento da atual.
 
 **Em meu workflow, utilizo:**
 - HTML5
-- CSS3 (Sass)
+- CSS3
 - JAVASCRIPT
-- EXPRESS
 - NPM
+- SASS
+- GULP
 - GIT
 
 **Próximas tecnologias a mergulhar:**
