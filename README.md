@@ -17,24 +17,19 @@ excelente entendimento da atual.
 **Em meu workflow, utilizo:**
 - HTML5
 - CSS3
-- JAVASCRIPT
-- NPM
 - SASS
+- JAVASCRIPT
+- NODE.js
+- NPM
+- NUNJUCKS
 - GULP
 - GIT
 
 **Próximas tecnologias a mergulhar:**
 - REACT
-- NODE.js
 - WEBPACK
+- MONGODB
 
 Confira meu portfólio, ficarei muito feliz em receber alguma sugestão ou crítica  
 sobre o código do mesmo, forma como foi desenvolvido o que de melhor poderia ter sido   
-utilizado.  
-
-
-
-**Ainda não tenho conhecimentos em bibliotecas e frameworks   
-(React, Vue, Angular, Ionic, Flutter e por ai vai) ou  outras linguagens de programação   
-(meu foco atual é Javascript), conforme o conhecimento na linguagem for ficando mais sólido,    
-partirei para os frameworks e libs (degrau por degrau).**
+utilizado.
