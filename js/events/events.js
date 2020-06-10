@@ -16,6 +16,7 @@ export default class Events {
             item.addEventListener('click', this.initScrollSmooth)
         })
 
+        
         this.animateMenuHamburguer();
         this.checkResize()  
     }
@@ -34,13 +35,18 @@ export default class Events {
     }
 
     animateMenuHamburguer() {
-        this.menuHamburguer.addEventListener('click', event => {
-            this.menuNav.classList.toggle('active')
 
-            if (this.menuNav.classList.contains('active')) {
-                this.closeWithClickAway()
-            }
-        })
+        if(this.menuHamburguer) {
+            this.menuHamburguer.addEventListener('click', event => {
+                this.menuNav.classList.toggle('active')
+    
+                if (this.menuNav.classList.contains('active')) {
+                    this.closeWithClickAway()
+                }
+            })
+        }
+
+        
     }
 
     checkResize() {
