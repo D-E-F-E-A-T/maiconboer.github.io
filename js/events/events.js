@@ -30,7 +30,7 @@ export default class Events {
             block: 'start',
         });
 
-        if(this.menuNav) {
+        if(this.menuNav.classList.contains('active')) {
             this.menuNav.classList.remove('active')
         }
     }
