@@ -28,6 +28,9 @@ export default class Events {
             behavior: 'smooth',
             block: 'start',
         });
+
+        this.menuNav.classList.remove('active')
+
     }
 
     animateMenuHamburguer() {
