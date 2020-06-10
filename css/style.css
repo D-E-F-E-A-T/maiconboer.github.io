@@ -234,7 +234,6 @@ section.technology h2::after {
 section.technology p {
     color: var(--color2);
     font-size: 18px;
-    padding: 10px;
 }
 
 section.technology .paragraph-gostack {
