@@ -16,7 +16,6 @@ export default class Events {
             item.addEventListener('click', this.initScrollSmooth)
         })
 
-        
         this.animateMenuHamburguer();
         this.checkResize()  
     }
@@ -29,12 +28,7 @@ export default class Events {
             behavior: 'smooth',
             block: 'start',
         });
-
-        if(this.menuNav.classList.contains('active')) {
-            this.menuNav.classList.remove('active')
-        }
     }
-
 
     animateMenuHamburguer() {
 
