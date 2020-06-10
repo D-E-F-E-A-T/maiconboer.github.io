@@ -265,7 +265,7 @@ section.technology .workflow-icon {
     height: 80px;
 }
 
-/* footer - contact */
+/* contact */
 section.contact {
     background-image: url('../assets/images/background2.svg');
     display: flex;
@@ -298,7 +298,19 @@ section.contact .container-contact p {
     padding: 10px;
 }
 
+section.contact .container-contact .media-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+section.contact .container-contact .media-social span {
+    color: #FCC319;
+}
+
+section.contact .container-contact .media-social a {
+    color: var(--color3);
+}
 
 
 
