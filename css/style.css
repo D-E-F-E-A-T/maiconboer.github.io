@@ -36,6 +36,7 @@ p, blockquote, cite {
 }
 
 /* header */
+
 header.header {
     height: 100vh;
     background-image: url('../assets/images/background.svg');
@@ -266,6 +267,7 @@ section.technology .workflow-icon {
 }
 
 /* contact */
+
 section.contact {
     background-image: url('../assets/images/background2.svg');
     display: flex;
@@ -319,6 +321,7 @@ section.contact .container-contact .media-social img {
 }
 
 /* footer */
+
 footer.footer {
     font-size: 14px;
     background-color: var(--color2);
@@ -350,7 +353,10 @@ footer.footer img {
        border-bottom: 1px solid #FCC319;
        bottom: -58px;
        width: 100%;
-       
+    }
+
+    header.header .logo-navigation .navigation.active {
+        display: block;
     }
 
     header.header .logo-navigation .navigation ul {
