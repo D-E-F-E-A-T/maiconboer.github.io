@@ -35,19 +35,14 @@ export default class Events {
         }
     }
 
+
     animateMenuHamburguer() {
 
         if(this.menuHamburguer) {
             this.menuHamburguer.addEventListener('click', event => {
                 this.menuNav.classList.toggle('active')
-    
-                if (this.menuNav.classList.contains('active')) {
-                    this.closeWithClickAway()
-                }
             })
         }
-
-        
     }
 
     checkResize() {
