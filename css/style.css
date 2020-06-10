@@ -234,8 +234,12 @@ section.technology h2::after {
 section.technology p {
     color: var(--color2);
     font-size: 18px;
-    margin-bottom: 0px;
     padding: 10px;
+}
+
+section.technology .paragraph-gostack {
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 section.technology p .link-rocket {
