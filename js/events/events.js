@@ -30,8 +30,9 @@ export default class Events {
             block: 'start',
         });
 
-        this.menuNav.classList.remove('active')
-
+        if(this.menuNav) {
+            this.menuNav.classList.remove('active')
+        }
     }
 
     animateMenuHamburguer() {
