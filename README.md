@@ -13,6 +13,7 @@ https://maiconboer.github.io/
 <img src=".github/img3.png" width="800"/>
 <img src=".github/img4.png" width="800"/>
 
+--------------------------------------------------------------
 
 Sou graduado em Análise e Desenvolvimento de Sistemas, atualmente moro em  
 Joinville-SC, possuo 10 anos experiência em tecnologia, voltado à Hardware,  
@@ -26,21 +27,21 @@ excelente entendimento da atual.
 
 Em meu workflow, utilizo:
 
-    HTML5
-    CSS3
-    SASS
-    JAVASCRIPT
-    NODE.js (cursando)
-    NPM
-    NUNJUCKS
-    GULP
-    GIT
+- HTML5
+-    CSS3
+-    SASS
+-    JAVASCRIPT
+-    NODE.js (cursando)
+-    NPM
+-    NUNJUCKS
+-    GULP
+-    GIT
 
 No momento estou no GoStack da Rocketseat , um treinamento online, prático e intensivo, no formato de bootcamp, para me especializar como um fullstack, stack do curso:
 
-    NODE.js
-    REACTJS
-    REACT-NATIVE
+ -   NODE.js
+ -   REACTJS
+ -   REACT-NATIVE
 
 Confira meu portfólio, ficarei muito feliz em receber alguma sugestão ou crítica  
 sobre o código do mesmo, o mesmo sofre atualizações constantes, sempre que algo novo  
