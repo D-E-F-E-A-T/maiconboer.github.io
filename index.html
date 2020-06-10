@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164619222-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -18,220 +18,132 @@
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="Maicon Boer - Desenvolvedor Front-end"/>
     <meta property="og:description" content="Desenvolvedor Front-end, criação de sites e landing pages, desenvolvimento web, sites responsivos e bem ranqueados."/>
-    <meta property="og:url" content="https://maiconboer.github.io/"/>
-    <meta property="og:image" content="https://maiconboer.github.io/assets/img/sobre/maiconboer.jpg" />
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="540">
-    <meta property="og:image:height"content="570">                                                                                       
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest"> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet"> 
+                    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://maiconboer.github.io/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 </head>
 <body>
-    <!-- top -->
-    <header class="top">
-        <div class="bg-top">
-            <div class="container top">
-                <div class="logo"><h1><a href="index.html"><span>
-                            < </span> Maicon Boer <span>></span></a></h1>
+    
+    <header class="header">
+        <div class="container-header-1">
+            <div class="logo-navigation">
+                <div class="logo"><a href="index.html">Maicon Boer</a></div>
+                
+                <div class="menu-hamburger">
+                    <img 
+                        src="./assets/images/menu.svg" 
+                        alt="Button menu"
+                    >
                 </div>
-                <div class="menu-hamburguer">
-                    <span class="menu-hamburguer1"></span>
-                    <span class="menu-hamburguer2"></span>
-                    <span class="menu-hamburguer3"></span>
-                </div>
-                <nav class="menu-top">
+
+                <nav class="navigation">
                     <ul>
-                        <li><a href="#benefits"> <span>
-                                    < </span> vantagens <span>></span></a></li>
-                        <li><a href="#product"> <span>
-                                    < </span> produto <span>></span></a></li>
-                        <li><a href="#about"> <span>
-                                    < </span> sobre <span>></span></a></li>
-                        <li><a href="#contact"> <span>
-                                    < </span> contato <span>></span></a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#technology">Tecnologias</a></li>
+                        <li><a href="#contact">Contato</a></li>
                     </ul>
                 </nav>
             </div>
+        </div>
 
-            <h1 class="title-top">Desenvolvedor <span>Front-end</span></h1>
+        <div class="container container-header-2">
+            <div>
+                <div class="text">
+                    <div>
+                        <h1 class="title-header">Desenvolvedor <span><br/>Front-end</span></h1>
 
-            <blockquote class="quote">
-                <p>"O segredo do sucesso é a constância do propósito."</p>
-                <cite>Benjamin Disraeli</cite>
-            </blockquote>
-            <button class="callToAction-product"><a href="#product">Conheça o produto</a></button>
+                        <blockquote class="quote">
+                            <p>"O segredo do sucesso é a constância do propósito."</p>
+                            <cite>Benjamin Disraeli</cite>
+                        </blockquote>
+                    </div>
+                 <button class="callToAction"><a href="#technology">Tecnologias</a></button>
+                </div>                     
+      
+                <img src="assets/images/illustration-coding.svg" alt="Photo coding">     
+            </div>
         </div>
     </header>
-
-    <!-- Advantages -->
-    <section class="benefits" id="benefits">
-        <h1>Vantagens de um site construído do zero.</h1>
-        <div class="svg-benefits">
-            <div>
-                <img src="https://maiconboer.github.io/assets/icons/personalizado.svg" alt="Site personalizado">
-                <p>Personalizado</p>
-            </div>
-
-            <div>
-                <img src="https://maiconboer.github.io/assets/icons/responsivo.svg" alt="Site responsivo">
-                <p>Responsivo</p>
-            </div>
-
-            <div>
-                <img src="https://maiconboer.github.io/assets/icons/rapido.svg" alt="Site rápido">
-                <p>Rápido</p>
-            </div>
-
-            <div>
-                <img src="https://maiconboer.github.io/assets/icons/seo.svg" alt="Site bem ranqueado">
-                <p>Seo</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Product -->
-    <section class="product" id="product">
-        <h1 class="title-product">Produto</h1>
-
-        <div class="product-individual">
-            <div class="container box">
-                <div class="product-description custom">
-                    <h2>Personalizado</h2>
-                    <p class="paragraph-product">Realize alterações a qualquer momento. Adequados para todo tipo de
-                        cliente, com a construção do zero, o resultado é um produto com a identidade visual que o
-                        cliente deseja.
-                    </p>
-                </div>
-                <div class="svg-product">
-                    <img src="https://maiconboer.github.io/assets/icons/prod/custom.svg" alt="Site gerenciável">
-                </div>
-            </div>
-        </div>
-
-        <div class="product-individual">
-            <div class="container box">
-
-                <div class="product-description responsive">
-                    <h2>Responsivo</h2>
-                    <p class="paragraph-product">Significa que o site é redimensionado para uma visualização ideal,
-                        independentemente do tamanho da tela ou do dispositivo (Tablet, Celular).
-                    </p>
-                </div>
-                <div class="svg-product">
-                    <img src="https://maiconboer.github.io/assets/icons/prod/responsive.svg" alt="Site responsivo">
-                </div>
-            </div>
-        </div>
-
-        <div class="product-individual">
-            <div class="container box">
-                <div class="product-description fast">
-                    <h2>Performance</h2>
-                    <p class="paragraph-product">Nenhum usuário gosta de navegar em um site lento, um site efetivo, deve
-                        carregar rapidamente suas
-                        páginas, um projeto bem desenvolvido, garante que seu site tenha uma excelente performance.
-                    </p>
-                </div>
-                <div class="svg-product">
-                    <img src="https://maiconboer.github.io/assets/icons/prod/fast.svg" alt="Site rápido">
-                </div>
-            </div>
-        </div>
-
-        <div class="product-individual">
-            <div class="container box box-inverter">
-                <div class="product-description seo">
-                    <h2>Seo</h2>
-                    <p class="paragraph-product">Seu site sempre no topo, a prioridade é a organização e a semântica.
-                        Aliado às tags corretas,
-                        deixará seu site claro e acessível às ferramentas de busca.
-                    </p>
-                </div>
-                <div class="svg-product">
-                    <img src="https://maiconboer.github.io/assets/icons/prod/seo.svg" alt="Site bem ranqueado">
-                </div>
-            </div>
-        </div>
-        <button class="callToAction-budget"><a href="#contact">Solicite um orçamento</a></button>
-
-    </section>
-
-    <!-- About -->
+    
     <section class="about" id="about">
-        <h1>Sobre</h1>
-        <div class="container about">
-            <div class="box-text">
-                <div class="text-about">
-                    <p>Olá, meu nome é <a class="link-style" href="https://www.linkedin.com/in/maicon-boer-35210797/" target="_blank">Maicon Boer</a>, sou graduado em Análise e Desenvolvimento de Sistemas, atualmente
-                        moro em Joinville-SC, trabalho a mais de 10 anos com tecnologia, voltado à hardware, mas minha
-                        paixão sempre foi desenvolvimento web, após minha graduação, estou realizando esta transição
-                        para o mundo Front-end, me especializando a cada dia, para lhe fornecer a melhor experiência
-                        possível, um produto final que atenda suas expectativas. </p>
+        <div class="container container-about">
+            <h2>Sobre</h2>
+            <div>
+                <p class="text-container">Olá, meu nome é <span>Maicon Boer</span>, sou graduado em Análise e Desenvolvimento de Sistemas, atualmente moro em Joinville-SC, trabalho a mais de 10 anos com tecnologia, voltado à hardware, mas minha paixão sempre foi desenvolvimento web, após minha graduação, estou realizando esta transição para o mundo Front-end, me especializando a cada dia, para lhe fornecer a melhor experiência possível, um produto final que atenda suas expectativas.</p>
 
-                        <p class="curriculum"><a href="https://maiconboer.github.io/assets/cv/cv-maicon-boer.pdf" target="_blank"><strong> Clique aqui (visualizar curriculum)</strong></a></p>
-                        
-
-                    <p class="bold-paragraph">Em meu <strong>workflow</strong>, utilizo:</p>
-                    <div class="technologies">
-                        <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/html5.svg" alt="HTML5" title="HTML5">
-                        <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/css3.svg" alt="CSS3" title="CSS3">
-                        <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/javascript.svg" alt="Javascript" title="JAVASCRIPT">
-                        <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/node.svg" alt="Node.js" title="NODE.js">
-                        <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/nunjucks.svg" alt="Nunjucks" title="Nunjucks">
-                        <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/npm.svg" alt="NPM" title="NPM">
-                        <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/sass.svg" alt="SASS" title="SASS">
-                        <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/gulp.svg" alt="GULP" title="GULP">
-                        <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/git.svg" alt="Git" title="GIT">
-                    </div>
-                    <hr class="content-break">
-                    <p>Sou fanático por desafios e extremamente motivado a aprender    novas tecnologias, mas não pulando etapas, para partir para uma nova tecnologia, necessito ter um excelente entendimento da atual. </p>
-                    <p class="bold-paragraph">Tecnologias que estou estudando no momento:</p>
-
-                        <div class="technologies next">
-                            <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/react.svg" alt="React" title="REACT">
-                            
-                            <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/webpack.svg" alt="Webpack" title="WEBPACK">
-
-                            <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/postgresql.svg" alt="Postgres" title="Postgres">
-                        </div>
-                </div>
-
+                <img src="assets/images/illustration-profile.svg" alt="Photo coding">
             </div>
-        </div>
         </div>
     </section>
 
-    <!-- Contact -->
-    <footer>
-        <section class="contact" id="contact">
-            <h1 class="title-contact">Contato</h1>
-        </section>
+    <section class="technology container" id="technology">
+        <h2>Tecnologias</h2>   
+        <div class="technology-text-and-icons">
 
-        <div class="container contact">
-            <div class="contact-data">
+            <div>
+                <p class="text-container">Sou fanático por desafios e extremamente motivado a aprender    novas tecnologias, mas não pulando etapas, para partir para uma nova tecnologia, necessito ter um excelente entendimento da atual. </p>
+                
+                <p>Em meu <strong>workflow</strong>, utilizo:</p>
+            </div>
+
+            <div class="technology-icons">
+                <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/html5.svg" alt="HTML5" title="HTML5">
+                <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/css3.svg" alt="CSS3" title="CSS3">
+                <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/javascript.svg" alt="Javascript" title="JAVASCRIPT">
+                <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/nunjucks.svg" alt="Nunjucks" title="NUNJUCKS">
+                <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/webpack.svg" alt="Webpack" title="WEBPACK">
+                <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/sass.svg" alt="SASS" title="SASS">
+                <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/git.svg" alt="GIT" title="GIT">
+            </div>
+        </div>
+
+        
+        <p class="text-container">No momento estou no <a class="link-rocket" href="https://pages.rocketseat.com.br/gostack/inscricao/12?gclid=CjwKCAjw5vz2BRAtEiwAbcVILyqPQnmNKOfxYfFjMXIkWkJqRXP7N3AaQwTGqYpOiOyO4XJS4NQyBRoCgLkQAvD_BwE" target="_blank">GoStack</a> da <a class="link-rocket" href="https://rocketseat.com.br/" target="_blank">Rocketseat</a> , um treinamento online, prático e intensivo, no formato de bootcamp, para me especializar como um fullstack, stack do curso:</p>
+
+            <div>
+                <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/node.svg" alt="Node.js" title="NODE.js">
+
+                <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/react.svg" alt="React" title="REACT">
+
+                <img class="workflow-icon" src="https://maiconboer.github.io/assets/icons/technology/react-native.svg" alt="React-native" title="REACT-NATIVE">
+              
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container container-contact">
+            <h2>Contato</h2>
+            <div>
+                <p class="text-container">Se você deseja iniciar um novo projeto, necessitar de ajuda com um projeto existente, ou com alguma outra dificuldade relacionada a front-end, farei o que puder para lhe ajudar, entre em contato.</p>
+
+                <p class="text-container">Se por ventura for um colega de curso (GoStack), bora codar, foco e vamos mitar!</p>
+
+                <!-- <img src="assets/images/illustration-profile.svg" alt="Photo coding"> -->
+            </div>
+
+            <div class="media-social">
                 <div>
-                    <p class="contact-phrase">Se você deseja iniciar um novo projeto, precisar de ajuda com um projeto
-                    existente ou tiver alguma outra pergunta, entre em contato.</p>
+                    <p><span class="whats">Whatsapp</span><a href="tel:47 996627723"><br/>(47) 99662-7723</a></p>
+                    <p><span class="email">E-mail:</span><a href="mailto:maicon_boer@hotmail.com"><br/>maicon_boer@hotmail.com</a></p>
+                </div>
 
+                <div>
                     <div class="social-networks">
                         <a href="https://www.linkedin.com/in/maicon-boer-35210797" rel="noopener noreferrer" target="_blank" ><img
                         src="https://maiconboer.github.io/assets/icons/linkedin.svg" alt="Linkedin Maicon Boer"></a>
                         <a href="https://github.com/maiconboer" rel="noopener noreferrer" target="_blank"><img src="https://maiconboer.github.io/assets/icons/github.svg" alt="Github Maicon Boer"></a>
                     </div>
                 </div>
-                <div>
-                    <p><span class="whats">Whatsapp</span><a href="tel:47 996627723">(47) 99662-7723</a></p>
-                    <p><span class="email">E-mail:</span><a href="mailto:maicon_boer@hotmail.com">maicon_boer@hotmail.com</a></p>
-                </div>
             </div>
-        </div>         
+        </div>
+    </section>
+
+    <footer>
     </footer>
-    <script type="module" src="https://maiconboer.github.io/js/script.js"></script>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
