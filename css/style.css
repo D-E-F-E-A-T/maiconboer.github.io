@@ -269,7 +269,7 @@ section.technology .technology-icons {
     margin-bottom: 40px;
 }
 
-.section.technology .current-course {
+section.technology .current-course {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
