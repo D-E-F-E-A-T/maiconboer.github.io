@@ -313,7 +313,7 @@ section.contact .container-contact p {
     color: var(--color3);
     font-size: 18px;
     margin-bottom: 0px;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 section.contact .container-contact .media-social {
