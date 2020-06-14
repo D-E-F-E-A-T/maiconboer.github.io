@@ -424,6 +424,12 @@ footer.footer img {
     section.about .container-about div img {
         width: 40%;
     }
+}
 
-    
+@media screen and (max-width: 400px) {
+    .media-social {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
 }
