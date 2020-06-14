@@ -427,16 +427,12 @@ footer.footer img {
 }
 
 @media screen and (max-width: 400px) {
-    .social-networks {
-        padding-bottom: 40px;
-    }
-
     .media-social {
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
-    
+
     .social-networks {
         margin-top: 20px;
     }
