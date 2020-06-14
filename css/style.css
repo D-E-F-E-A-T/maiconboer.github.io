@@ -269,6 +269,12 @@ section.technology .technology-icons {
     margin-bottom: 40px;
 }
 
+.section.technology .current-course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 section.technology .workflow-icon {
     margin: 10px;
     width: 80px;
@@ -374,7 +380,7 @@ footer.footer img {
     }
 
     header.header .logo-navigation .navigation ul li {
-        padding: 20px;
+        padding: 20px 0;
     }
 
     header.header .logo-navigation .navigation ul li + li {
