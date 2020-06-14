@@ -157,7 +157,7 @@ header.header .container-header-2 img {
 /* about */
 
 section.about {
-    height: 100vh;
+    
     background-image: url('../assets/images/background2.svg');
     backface-visibility: inherit;
     color: var(--color3);
@@ -213,7 +213,7 @@ section.technology {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 section.technology h2 {
@@ -239,6 +239,7 @@ section.technology p {
 
 section.technology .paragraph-text {
     margin-bottom: 20px;
+    padding: 0 20px;
 }
 
 section.technology .paragraph-text.curriculum {
