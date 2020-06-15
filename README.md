@@ -5,12 +5,14 @@ Bem vindo ao meu portfólio (projetos serão adicionados em breve ao mesmo).
 https://maiconboer.github.io/
 
 --------------------------------------------------------------
+
 <p align=center>
 <img src=".github/img1.png" width="800"/>
 <img src=".github/img2.png" width="800"/>
 <img src=".github/img3.png" width="800"/>
 <img src=".github/img4.png" width="800"/>
 <p>
+ 
 --------------------------------------------------------------
 
 Sou graduado em Análise e Desenvolvimento de Sistemas, atualmente moro em  
