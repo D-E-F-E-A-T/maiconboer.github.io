@@ -6,8 +6,6 @@ https://maiconboer.github.io/
 
 --------------------------------------------------------------
 
-
-<p align="center">
 <img src=".github/img1.png" width="800"/>
 <img src=".github/img2.png" width="800"/>
 <img src=".github/img3.png" width="800"/>
