@@ -1,4 +1,4 @@
-# Portfólio - Maicon Boer 
+# Portfólio - Maicon Boer :memo:
 
 Bem vindo ao meu portfólio (projetos serão adicionados em breve ao mesmo).
 
